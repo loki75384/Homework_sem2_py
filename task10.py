@@ -21,7 +21,7 @@ from random import randint
 a, b = 0, 0
 for i in range(n):
     temp = randint(0, 1)
-    print(temp, end=' ')
+    print(temp, end = ' ')
     if temp > 0: a += 1
     else: b += 1
 print()
@@ -36,6 +36,6 @@ for i in range(n):
 print(list_coins)
 zero = list_coins.count(0)
 if len(list_coins) - zero < zero:
-    print(f'Нужно перевернуть {len(list_coins) - zero} монеток')
+    print(f 'Нужно перевернуть {len(list_coins) - zero} монеток')
 else:
-    print(f'Нужно перевернуть {zero} монеток')
+    print(f 'Нужно перевернуть {zero} монеток')
